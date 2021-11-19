@@ -3,9 +3,6 @@ from category.models import Category
 from store.models import Product
 
 
-# Create your views here.
-
-
 def store(request, category_slug=None):
     categories = None
     products = None
